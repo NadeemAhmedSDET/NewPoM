@@ -56,7 +56,7 @@ public class Loginpagetest {
 	
 	@AfterTest(enabled = true)
 	public void wrapup() {
-		
+		driver.close();
 		driver.quit();
 	}
 	
